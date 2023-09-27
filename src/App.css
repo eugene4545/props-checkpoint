@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html {
+    background: url(../public/images/FIFA-23-review---header.webp)no-repeat;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Add a hover effect to grow the profile card slightly */
+.card:hover .card-img {
+    transform: scale(1.8); /* Increase the scale on hover */
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
   }
-  to {
-    transform: rotate(360deg);
+
+  .card:hover .card-body{
+    transform:translateY(50px) ;
+    transition: transform 0.5s ease;
   }
-}
+
+  
